@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data / models / outputs
+*.zip
+*.json
+*.jsonl
+*.safetensors
+*.bin
+*.pt
+*.pth
+data/
+outputs/
+checkpoints/
+lora_*/
+model_vllm_merged*/
+rag_local/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
